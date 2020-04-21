@@ -1,4 +1,4 @@
-package com.example.demo.entity;
+package com.syneHealthInsurance.Entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -7,8 +7,8 @@ import javax.persistence.Table;
 import lombok.Data;
 
 @Table
-@Data
 @Entity
+@Data
 public class Policy {
 
 	
@@ -19,4 +19,5 @@ public class Policy {
  private float numberOfYear;
  private double monthPrimium;
  private double yearPrimium;
+	
 }

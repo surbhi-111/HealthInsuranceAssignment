@@ -8,11 +8,11 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>Test</artifactId>
+	<groupId>com.syneHealthInsurance.</groupId>
+	<artifactId>Syne-HealthInsurance</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Test</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Syne-HealthInsurance</name>
+	<description>health insurance project</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -35,6 +35,11 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
@@ -49,11 +54,6 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
