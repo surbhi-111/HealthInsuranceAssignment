@@ -15,7 +15,7 @@ public class ExceptionControlAdvice {
   ExceptionResponce ExcpResp = new ExceptionResponce();
   
   @ExceptionHandler()
-  public ResponseEntity<ExceptionResponce> handleCompanyNotFoundException(CompanyNotFoundException exe)
+  public ResponseEntity<ExceptionResponce> handlePolicyNotFoundException(PolicyNotFoundException exe)
   {
 	  ExcpResp.setErrorMessage(exe.getMessage());
 	  ExcpResp.setStatus(HttpStatus.NOT_FOUND.value());

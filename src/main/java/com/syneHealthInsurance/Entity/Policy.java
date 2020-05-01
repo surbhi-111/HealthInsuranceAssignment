@@ -16,6 +16,8 @@ public class Policy {
  private long policyNumber;
  private String policyName;
  private long lifeCover;
+ private int age;
+ private String planType;
  private float numberOfYear;
  private double monthPrimium;
  private double yearPrimium;
